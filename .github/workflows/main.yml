@@ -1,0 +1,16 @@
+name: pardeep-infra-pipeline
+
+on: workflow_dispatch
+jobs:
+  Buildjob:
+    name: agent
+    runs-on: Ubuntu-latest
+    steps: 
+      - name: Install Terraform
+         with:
+         version: latest 
+  
+  
+   
+
+  
